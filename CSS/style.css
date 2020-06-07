@@ -1,0 +1,45 @@
+
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ROW {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+}
+.ROW3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  grid-gap: 5px;
+  margin: 1px ;
+}
+
+.COLUMN {
+  display: grid;
+  grid-template-rows: 1fr .25fr;
+  justify-content: left;
+  align-items: center;
+}
+.btn {
+  height: 7vh;
+  width: 17vw;
+  background: white;
+  margin-top: 2vh;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}

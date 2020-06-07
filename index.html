@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Getting LatLng from a Click Event</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css">
+
+    <link rel="stylesheet" href="CSS/style.css">
+  </head>
+  <body>
+    <div class="ROW">
+      <div id="googleMap" style="width:100%;height:100%;"></div>
+      <div class="ROW">
+        <div class="">
+          <div class="row">
+            <div id="mainUI" class=" text-center bg-primary p-5 rounded">
+              
+              <div class="ROW3">
+                <h3 id="w-location" class="">Nearest City, State</h3>
+                <h4 class="text-dark" id="w-name">Forecast Period</h4>
+                
+                <h4 id="w-string">Short Forecast</h4>
+                  <div class="icon">
+                    <img class = "" src="#"id="w-icon">
+                  </div>
+                <p class="btn" id="w-temp">w-temperature</p>
+                <p class="btn" id="w-wind">w-wind</p>
+                <button id="button1" class = "btn">Now</button>
+                <button id="button2" class = "btn">In 12 Hours</button>
+                <button id="button3" class = "btn">In 24 Hours</button>
+                <button id="button4" class = "btn">In 36 Hours</button>
+                <button id="button5" class = "btn">In 48 Hours</button>
+                <button id="button6" class = "btn">In 60 Hours</button>
+                <button id="button7" class = "btn">In 72 Hours</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <script src="Functions.js"></script>
+    <script src="Classes.js"></script>
+    <script src="Variables.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAiupdcSN0VApO4ZwY2P6Io-zSQ9D_ThBw&callback=initMap">
+    </script>
+  </body>
+</html>
